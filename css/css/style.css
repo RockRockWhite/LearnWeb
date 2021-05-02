@@ -1,0 +1,141 @@
+#para1 {
+    background-color: aqua;
+    color: red;
+}
+
+Body {
+    background-color: #555555;
+    font-size: 20px;
+    font-weight: bolder;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+.box1 {
+    border: 5px blue solid;
+    border-right: 10px red solid;
+    border-top: 20px green dotted;
+    border-bottom: 10px firebrick double;
+    border-bottom-style: outset;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.box1 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    word-spacing: 2em;
+    border: 5px blue solid;
+}
+
+.box2 {
+    border-radius: 50px;
+    border: 5px dotted #cccccc;
+    padding: 20px;
+    margin: 20px 5px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.list li {
+    list-style-image: url('../image/tick.jpg');
+    list-style: circle;
+}
+
+.list {
+    margin: 50px;
+    border: 20px dotted #977777;
+    padding-left: 300px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    background-color: #444444;
+    color: #fff;
+    padding: 25px 50px;
+    border: 5px white solid;
+    border-radius: 20px;
+    margin-left: 300px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:active {
+    background-color: antiquewhite;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: cyan;
+}
+
+a:visited {
+    color: red;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.list2 li:nth-child(even) {
+    background-color: grey;
+}
+
+.list2 li:nth-child(3) {
+    background-color: aqua;
+}
+
+.list2 li:first-child {
+    background-color: green;
+}
+
+.list2 li:last-child {
+    background-color: blue;
+}
+
+.position-box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#fixed {
+    position: fixed;
+    right: 0px;
+    bottom: 100px;
+}
